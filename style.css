@@ -15,6 +15,21 @@ input, button {
   -webkit-appearance: none;
   -moz-appearance: none;
   appearance: none;
+  padding: 0;
+}
+.signInBtn {
+  background-color: #2b2929;
+  color: #f4f4f4;
+  font-size: 2rem;
+  padding: 5px 20px;
+  text-decoration: none;
+  text-align: center;
+  border: none;
+  cursor: pointer;
+}
+.signInBtn:hover {
+  background-color: #928e8e;
+  transition: 0.3s;
 }
 @font-face {
   font-family: "ProximaNovaRegular";
