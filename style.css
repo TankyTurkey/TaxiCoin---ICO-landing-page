@@ -11,6 +11,11 @@ a {
 a:active {
   outline: none;
 }
+input, button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
 @font-face {
   font-family: "ProximaNovaRegular";
   src: url(fonts/ProximaNovaCondensedRegular.otf);
