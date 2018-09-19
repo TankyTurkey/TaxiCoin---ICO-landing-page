@@ -102,10 +102,10 @@ input, button {
 }
 .socialImg {
   width: 20px;
+  padding: 10px;
 }
 .socialIcon {
-  margin: 0 15px;
-  padding: 10px;
+  margin: 0 20px;
   border: 1px solid transparent;
 }
 .socialIcon:hover {
@@ -208,13 +208,25 @@ input, button {
 .flexItem {
   max-width: 350px;
 }
-.app {
-  max-height: 700px;
-  width: 100%;
-}
 .app__h2 {
   text-align: center;
   font-size: 2rem;
+}
+.screen {
+  background-image: url(images/screen.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 550px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+.screenImg {
+  width: 240px;
+  height: 430px;
 }
 .getItOnImg {
   max-width: 200px;
@@ -247,6 +259,7 @@ input, button {
   max-width: 150px;
   max-height: 150px;
   width: 100%;
+  height: 100%;
   border-radius: 50%;
   margin-right: 20px;
   margin-top: 20px;
@@ -498,10 +511,9 @@ footer span {
       flex-direction: row;
       flex-wrap: wrap;
    }
-   .app {
+   .screen {
      max-height: 500px;
-     width: 70%;
-     display: block;
+     width: 100%;
      margin: 0 auto;
    }
    .flexTeamItem {
@@ -512,7 +524,8 @@ footer span {
      max-height: 120px;
    }
    .name {
-     font-size: 1.2rem;
+     font-size: 1.1rem;
+     padding-right: 10px;
    }
    .position {
      letter-spacing: 4px;
