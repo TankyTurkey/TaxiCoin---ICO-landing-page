@@ -130,6 +130,19 @@ input, button {
   border: 1px solid transparent;
   transition: 0.2s;
 }
+/* .video {
+  min-height: 600px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-image: url(images/video_bg.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-color: rgba(0,0,0,0.7);
+  background-blend-mode: darken;
+} */
 .howItWorks {
   padding-bottom: 30px;
 }
