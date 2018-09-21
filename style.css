@@ -7,6 +7,7 @@ body {
 a {
   text-decoration: none;
   outline: none;
+  cursor: pointer;
 }
 a:active {
   outline: none;
@@ -130,8 +131,7 @@ input, button {
   border: 1px solid transparent;
   transition: 0.2s;
 }
-/* .video {
-  min-height: 600px;
+.video {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -140,9 +140,13 @@ input, button {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-  background-color: rgba(0,0,0,0.7);
+  background-color: rgba(0,0,0,0.85);
   background-blend-mode: darken;
-} */
+}
+.frame {
+  width: 70%;
+  min-height: 600px;
+}
 .howItWorks {
   padding-bottom: 30px;
 }
@@ -210,7 +214,6 @@ input, button {
   margin: 0 auto;
 }
 .prototype {
-  border-top: 2px solid #dedede;
   border-bottom: 2px solid #dedede;
   padding-bottom: 60px;
 }
@@ -417,6 +420,10 @@ footer span {
   .nav-arrows {
 		display: none;
 	}
+  .frame {
+    width: 100%;
+    min-height: 300px;
+  }
 }
 @media (min-width: 991px) {
 	.section-roadmap__list-item-description {
