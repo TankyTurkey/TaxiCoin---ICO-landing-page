@@ -553,4 +553,7 @@ footer span {
    .pay .bigInner {
      font-size: 0.9rem;
    }
+   .section-roadmap__list-item-description {
+     padding: 0 20px;
+   }
 }
